@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\PageController as UserPageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.user.home');
-});
+Route::get('/', [UserPageController::class, 'index']);
 
 Route::get('/admin', function () {
     return view('pages.admin.home');
