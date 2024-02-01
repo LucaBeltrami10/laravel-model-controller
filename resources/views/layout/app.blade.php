@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titolo</title>
+    <title>@yield('title', 'Laravel-model-controller')</title>
 
     @vite('resources/js/app.js')
 </head>
 
 <body>
+    @include('partials.header')
 
-    <h1 class="ms-5">ciao!</h1>
+    @yield('main-content')
+
+    @include('partials.footer')
 
 </body>
 
