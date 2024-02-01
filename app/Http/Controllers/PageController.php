@@ -7,6 +7,8 @@ use app\Models\Movie;
 
 class PageController extends Controller
 {
-    
-    return view('pages.user.home');
+    public function index()
+    {
+        return view('pages.user.home');
+    }
 }
