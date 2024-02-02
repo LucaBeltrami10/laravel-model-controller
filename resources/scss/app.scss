@@ -2,4 +2,9 @@
 
 @import "./partials/variables";
 @import "./partials/mixins";
-@import "./partials/home";
+
+main {
+
+    @import "./partials/home";
+
+}

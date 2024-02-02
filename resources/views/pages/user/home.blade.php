@@ -6,7 +6,7 @@
 
 
 
-<div class="container-fluid">
+<div id="home-user" class="container-fluid">
     <div class="row">
         @foreach ($movies as $movie)
             <div class="col-3">
