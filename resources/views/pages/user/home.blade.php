@@ -1,7 +1,10 @@
 @extends('layout.app')
 
 @section('main-content')
-<h1>Home User</h1>
+<div class="d-flex">
+    <p class="me-4">Home User</p> <a href="http://127.0.0.1:8000/admin"> Vai nella sezione admin</a>
+</div>
+
 
 
 

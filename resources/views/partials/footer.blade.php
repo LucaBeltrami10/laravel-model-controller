@@ -1,3 +1,3 @@
 <footer>
-    <h5 class="mt-5">footer</h5>
+    <p class="mt-5">footer</p>
 </footer>
